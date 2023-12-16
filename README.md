@@ -4,5 +4,5 @@ Esimerkissä on luokka **Person**, jota käytetään kantaluokkana luokille **St
 
 ## Luokkadiagrammi
 
-Sovelluksen luokkadiagrammi näyttää tältä 
+Sovelluksen luokkadiagrammi näyttää tältä <br>
 <img src="ClassDiagram.png">
