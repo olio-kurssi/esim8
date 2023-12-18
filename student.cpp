@@ -14,3 +14,8 @@ void Student::setGroupName(const string &newGroupName)
 {
     groupName = newGroupName;
 }
+
+void Student::implementMe()
+{
+    cout<<"Student luokan on toteutettava metodi implementMe\n";
+}

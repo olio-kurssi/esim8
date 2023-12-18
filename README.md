@@ -1,8 +1,5 @@
-# esim3 Periytyminen
+# esim8 interface luokka
 
-Esimerkissä on luokka **Person**, jota käytetään kantaluokkana luokille **Student** ja **Teacher**
+Sovelluksessa oleva **IPerson** luokka on ns. interface luokka. Jos jokin luokkka perii sen, on perivässä luokassa pakko toteuttaa interface luokassa määritellyt metodit.
 
-## Luokkadiagrammi
-
-Sovelluksen luokkadiagrammi näyttää tältä <br>
-<img src="ClassDiagram.png">
+Voit kokeilla mitä tapahtuu, jos kommentoit Student luokan **implementMe** metodin ja käännät sovelluksen.

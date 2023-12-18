@@ -12,6 +12,7 @@ int main()
     objectStudent->setName("Teppo Opiskelija");
     objectStudent->setBirthYear(2001);
     objectStudent->setGroupName("tvt23spl");
+    objectStudent->implementMe();
     cout<<"Opiskelijan tiedot"<<endl;
         cout<<objectStudent->getName()<<endl;
         cout<<objectStudent->getBirthYear()<<endl;
@@ -22,6 +23,7 @@ int main()
     objectTeacher->setName("Liisa Opettaja");
     objectTeacher->setBirthYear(1978);
     objectTeacher->setDepartment("Tietotekniikka");
+    objectTeacher->implementMe();
     cout<<"Opettajan tiedot"<<endl;
         cout<<objectTeacher->getName()<<endl;
         cout<<objectTeacher->getBirthYear()<<endl;
