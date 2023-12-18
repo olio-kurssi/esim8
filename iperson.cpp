@@ -4,3 +4,9 @@ IPerson::IPerson()
 {
 
 }
+
+IPerson::~IPerson()
+{
+    cout<<"IPerson luokan tuhoaja\n";
+}
+

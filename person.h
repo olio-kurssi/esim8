@@ -8,6 +8,7 @@ class Person
 {
 public:
     Person();
+    virtual ~Person();
     string getName() const;
     void setName(const string &newName);
 
